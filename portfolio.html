@@ -6,40 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вебстудия</title>
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"> 
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <a href="#">WebStudio</a>
+            <a href="#" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
             <ul>
-                <li><a href="#"></a>Студия</li>
-                <li><a href="#"></a>Портфолио</li>
-                <li><a href="#"></a>Контакты</li>
+                <li><a href="./index.html" class="nav-item"></a>Студия</li>
+                <li><a href="./portfolio.html" class="nav-item"></a>Портфолио</li>
+                <li><a href="#" class="nav-item"></a>Контакты</li>
             </ul>
         </nav>
 
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="contacts-item">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="contacts-item">+38 096 111 11 11</a></li>
         </ul>
-
     </header>
 
     <main>
         <!-- Filters -->
         <section>
             <ul>
-                <li><button type="button">Все</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+                <li><button type="button" class="btn-filters"><span class="btn-filters-text">Все</span></button></li>
+                <li><button type="button" class="btn-filters"><span class="btn-filters-text">Веб-сайты</span></button></li>
+                <li><button type="button" class="btn-filters"><span class="btn-filters-text">Приложения</span></button></li>
+                <li><button type="button" class="btn-filters"><span class="btn-filters-text">Дизайн</span></button></li>
+                <li><button type="button" class="btn-filters"><span class="btn-filters-text">Маркетинг</span></button></li>
             </ul>            
 
         </section>
@@ -50,70 +52,49 @@
             <h1: hidden>Наши работы</h1:>
             <ul>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-1.jpg" alt="Три сотрудника компании">
-                        <h2>Технокряк</h2>
-                        <p>Веб-сайт</p>  
-                    </a>                  
+                    <img src="./images/img-portfolio/img-pf-1.jpg" alt="Три сотрудника компании">
+                    <h2 class="prodject-title">Технокряк</h2>
+                    <p class="prodject-text">Веб-сайт</p>                            
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-2.jpg" alt="Два баскетболиста">
-                        <h2>Постер New Orlean vs Golden Star</h2>
-                        <p>Дизайн</p>
-                    </a>           
+                    <img src="./images/img-portfolio/img-pf-2.jpg" alt="Два баскетболиста">
+                    <h2 class="prodject-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="prodject-text">Дизайн</p> 
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-3.jpg" alt="Логотип морского ресторана">
-                        <h2>Ресторан Seafood</h2>
-                        <p>Приложение</p>
-                    </a>
+                    <img src="./images/img-portfolio/img-pf-3.jpg" alt="Логотип морского ресторана">
+                    <h2 class="prodject-title">Ресторан Seafood</h2>
+                    <p class="prodject-text">Приложение</p>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-4.jpg" alt="Наушники">
-                    <   h2>Проект Prime</>
-                        <p>Маркетинг</p>
-
-                    </a>               
+                    <img src="./images/img-portfolio/img-pf-4.jpg" alt="Наушники">
+                    <h2 class="prodject-title">Проект Prime</h2>
+                    <p class="prodject-text">Маркетинг</p>   
                  </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-5.jpg" alt="Две коробочки">
-                        <h2>Проект Boxes</h2>
-                        <p>Приложение</p>
-                    </a>
+                    <img src="./images/img-portfolio/img-pf-5.jpg" alt="Две коробочки">
+                    <h2 class="prodject-title">Проект Boxes</h2>
+                    <p class="prodject-text">Приложение</p>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-6.jpg" alt="Монитор ">
-                        <h2>Inspiration has no Borders</h2>
-                        <p>Веб-сайт</p>
- 
-                    </a>               
+                    <img src="./images/img-portfolio/img-pf-6.jpg" alt="Монитор ">
+                    <h2 class="prodject-title">Inspiration has no Borders</h2>
+                    <p class="prodject-text">Веб-сайт</p>  
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-7.jpg" alt="Разворот журнала">
-                        <h2>Издание Limited Edition</h2>
-                        <p>Дизайн</p>    
-                    </a>            
+                    <img src="./images/img-portfolio/img-pf-7.jpg" alt="Разворот журнала">
+                    <h2 class="prodject-title">Издание Limited Edition</h2>
+                    <p class="prodject-text">Дизайн</p>                           
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-8.jpg" alt="Бирка">
-                        <h2>Проект LAB</h2>
-                        <p>Маркетинг</p>
-
-                    </a>               
+                    <img src="./images/img-portfolio/img-pf-8.jpg" alt="Бирка">
+                    <h2 class="prodject-title">Проект LAB</h2>
+                    <p class="prodject-text">Маркетинг</p>                          
                  </li>
                 <li>
-                    <a href="#">
-                        <img src="./images/img-portfolio/img-pf-9.jpg" alt="Работа на ноутбуке">
-                        <h2>Growing Business</h2>
-                        <p>Приложение</p>
-                    </a>
+                    <img src="./images/img-portfolio/img-pf-9.jpg" alt="Работа на ноутбуке">
+                    <h2 class="prodject-title">Growing Business</h2>
+                    <p class="prodject-text">Приложение</p>
                 </li>
             </ul>
         </section>
