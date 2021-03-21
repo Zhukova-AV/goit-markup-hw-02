@@ -3,6 +3,7 @@ body {
     color: #212121;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-weight: 400;
 }
 
 :root {
@@ -82,6 +83,7 @@ body {
     height: 50px;
     left: 700px;
     top: 430px;
+    cursor: pointer;
 }
 
 .btn-text {
@@ -104,7 +106,6 @@ body {
 }
 
 .features-text {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -119,6 +120,11 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
 }
+
+.about-img {
+    width: 370px;
+    height: 294px;
+}
 /* /ABOUT */
 
 /* TEAM */
@@ -130,19 +136,22 @@ body {
 
 .team-card-item p {
     color: var(--text-color-light);
-    font-weight: 400;
 }
 
 .team-card-item h3 {
     color: var(--primary-text-color);
     font-weight: 500;
 }
+
+.team-card-item img {
+    width: 270px;
+    height: 260px;
+}
 /* /TEAM */
 
 /* FOOTER */
 .address {
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -170,6 +179,7 @@ body {
 .btn-filters:hover,
 .btn-filters:focus {
     background-color: var(--text-color-hover);
+    cursor: pointer;
 }
 
 .btn-filters-text {
@@ -198,11 +208,15 @@ body {
 }
 
 .prodject-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text-color-light);
+}
+
+.prodject-img {
+    width: 370px;
+    height: 294px;
 }
 
 /* PROJECTS */
